@@ -1,0 +1,411 @@
+:root {
+  --dark: #323443;
+  --darker: #15161d;
+  --light: #f9feff;
+  --yellow: #ffe32f;
+}
+
+/* Resetter */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* Fonts */
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+  color: #111;
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: #eee;
+  font-size: 3.052rem;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* UI Elements */
+button {
+  display: inline-block;
+  height: 3rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--pink);
+  color: #eee;
+}
+
+button:hover {
+  background-color: #eccf16;
+  transition: 0.1s ease-in;
+}
+
+.dark_button {
+  background-color: #000;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 250px;
+  height: 3rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  background-color: #eee;
+  border-color: #ddd;
+  color: #222;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light)
+}
+
+nav a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+nav a.logo {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
+}
+
+nav button {
+  background-color: var(--yellow);
+  color: var(--dark);
+  border-radius: 50px;
+}
+
+/* Header */
+header {
+  display: flex;
+  min-height: 80vh;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--light);
+;
+}
+
+header p {
+  color: var(--dark);
+}
+
+header button {
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  background-color: var(--dark);
+}
+
+.header_text {
+  width: 30vw;
+  min-width: 300px;
+  
+}
+
+h1 {
+  color: var(--dark);
+}
+
+.header_graphics {
+  width: 25vw;
+  height: 25vw;
+  min-width: 250px;
+  min-height: 250px;
+  border-radius: 250px;
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
+.header_graphics img {
+  width: 100%;
+  height: 100%;
+}
+
+.header_graphics object svg path {
+  color: #ffffff;
+}
+
+/* product section */
+#product {
+  padding: 5rem 3rem;
+  background-color: var(--light);
+}
+
+#product img {
+  width: 14rem;
+}
+
+#product h2 {
+  font-size: 3.052rem;
+  line-height: 3.5rem;
+}
+
+#product article {
+  display: flex;
+  min-height: 50vh;
+  padding: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#product article:first-child {
+  min-height: 40vh;
+}
+
+.product_text {
+  width: 50vw;
+  min-width: 300px;
+}
+
+#product article:first-child .product_text {
+  width: 75vw;
+  min-width: 300px;
+}
+
+.product_graphics {
+  width: 15vw;
+  height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  padding: 1rem;
+  margin: 3rem;
+  border-radius: 300px;
+}
+.product_graphics object {
+  width: 100%;
+  height: 100%;
+}
+
+/* highlight sections */
+.highlight {
+  display: flex;
+  min-height: 70vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--yellow);
+}
+
+.highlight div {
+  width: 80vw;
+}
+
+.highlight div h2 {
+  font-size: 5.005rem;
+  line-height: 6rem;
+
+}
+
+.dark {
+  background-color: #222;
+}
+
+.dark h2 {
+  color: #eee;
+}
+
+.dark a {
+  color: #ccc;
+}
+
+/* request section */
+#request {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--yellow);
+}
+
+#request div {
+  width: 50vw;
+  min-width: 300px;
+}
+
+#request button {
+  background-color: var(--darker);
+}
+
+/* DARK MODE */
+
+.dark-mode header {
+  background-color: var(--darker);
+  color: var(--light);
+}
+
+.dark-mode #product {
+  background-color: var(--darker);
+  color: var(--light);
+}
+
+
+
+.dark-mode h1 {
+  color: var(--light);
+}
+
+.dark-mode h2 {
+  color: var(--light);
+}
+
+.dark-mode h3 {
+  color: var(--light);
+}
+
+.dark-mode footer {
+  background-color: var(--darker);
+}
+
+.dark-mode #request  {
+  background-color: var(--dark);
+}
+
+
+.dark-mode #request button  {
+  background-color: var(--yellow);
+}
+
+.dark-mode .highlight div h2 {
+  color: var(--darker);
+}
+
+.dark-mode .highlight a {
+  color: var(--darker);
+}
+
+.dark-mode p {
+  color: var(--light);
+}
+
+.dark-mode nav {
+  background-color: var(--dark);
+  color: var(--lighter);
+}
+
+.dark-mode a {
+  color: var(--light);
+}
+
+.dark-mode button {
+  color: var(--dark);
+}
+
+.dark-mode .dark_button {
+  background-color: var(--yellow);
+}
+
+.dark-mode button:hover {
+  text-decoration-color: var(--orange);
+}
+
+.dark-mode a:hover {
+  text-decoration-color: var(--orange);
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 5vh 2rem;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #111;
+  color: #ddd;
+}
+
+footer h2,
+footer h3 {
+  color: #eee;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #ddd;
+}
+
+footer section.left {
+  display: flex;
+  max-width: 50vw;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section div {
+  margin: 0px 1rem 1rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 0.9em;
+  }
+
+  #product h2 {
+    font-size: 1.953rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  .highlight div h2 {
+    font-size: 3.052rem;
+    line-height: 3.5rem;
+  }
+}
