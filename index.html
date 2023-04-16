@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Color Assignment</title>
-    <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
-    <!-- Inspired by https://cequence.io/ & https://wage.numbered.studio/ for educational purpose-->
-    <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
-    <!-- SVGs from https://www.svgrepo.com/ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-        <a class="logo" href="index.html">Logo</a>
-        <div>
-          <ul>
-            <li><a href="#product">Product</a></li>
-            <li><a href="#solution">Solution</a></li>
-          </ul>
-        </div>
-        <button onclick="darkTheme()" type="button">CHANGE THEME</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Color Assignment</title>
+  <!-- Template adapted from https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
+  <!-- Inspired by https://cequence.io/ & https://wage.numbered.studio/ for educational purpose-->
+  <!-- Lorem Ipsum from https://loremizr.monkeymatt.com/ -->
+  <!-- SVGs from https://www.svgrepo.com/ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,500;0,700&display=swap');
+  </style>
+  <nav>
+    <a class="logo" href="index.html"><img src="graphics/logo.svg" alt="logo"></a>
+    <div>
+      <ul>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#solution">Solution</a></li>
       </ul>
-    </nav>
-    <header>
-      <div class="header_text">
-        <h1>Colors & animation</h1>
-        <p>
-          The assignment is to apply a color pallet to a mockup landing page design, then add animations. There are three parts; the first part is to apply a color palette, the second part is to create a dark theme and the last part is to add animations.
-        </p>
-        <button class="dark_button" type="button">See more</button>
-      </div>
-      <div class="header_graphics">
-        <img src="graphics/lemon.png" alt="">
-      </div>
-    </header>
-    <main>
+    </div>
+    <button onclick="darkTheme()" type="button">Change theme</button>
+    </ul>
+  </nav>
+  <header>
+    <div class="header_text">
+      <h1>Colors & animation</h1>
+      <p>
+        The assignment is to apply a color pallet to a mockup landing page design, then add animations. There are three
+        parts; the first part is to apply a color palette, the second part is to create a dark theme and the last part
+        is to add animations.
+      </p>
+      <button class="dark_button" type="button">See more</button>
+    </div>
+    <div class="header_graphics">
+      <img src="graphics/lemon.png" alt="">
+    </div>
+  </header>
+  <main>
     <section class="highlight">
       <div>
         <h2>
@@ -52,12 +61,12 @@
       <article>
         <section class="product_text">
           <h2>Fremilut nobis me absoluto quam obligatorio</h3>
-          <p>
-            Hic litteras ad cum convallis sinistras, natus contemptor sem
-            symbola consequatur typi accessus praeditus non EA-quaeque
-            paucitate.
-          </p>
-          <a>Request Demo &#x2794;</a>
+            <p>
+              Hic litteras ad cum convallis sinistras, natus contemptor sem
+              symbola consequatur typi accessus praeditus non EA-quaeque
+              paucitate.
+            </p>
+            <a>Request Demo &#x2794;</a>
         </section>
       </article>
       <article>
@@ -89,7 +98,7 @@
         </section>
       </article>
     </section>
-    
+
     <section id="request">
       <div>
         <h2>Porro si suscipere unde conformiter numquam & quod eaque?</h2>
@@ -100,36 +109,37 @@
         <input type="text"></input><button type="button">Request Demo &#x2794;</button>
       </div>
     </section>
-    </main>
-    <footer>
-      <section>
-        <h2 class="logo">Logo</h2>
+  </main>
+  <footer>
+    <section>
+      <h2 class="logo">Logo</h2>
+      <ul>
+        <li><a href="">contact@logo.com</a></li>
+        <li><a href="">+45 23225343</a></li>
+      </ul>
+    </section>
+    <section class="left">
+      <div>
+        <h3>Product</h3>
         <ul>
-          <li><a href="">contact@logo.com</a></li>
-          <li><a href="">+45 23225343</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Technology</a></li>
+          <li><a href="">Security</a></li>
+          <li><a href="">Pricing</a></li>
         </ul>
-      </section>
-      <section class="left">
-        <div>
-          <h3>Product</h3>
-          <ul>
-            <li><a href="">Features</a></li>
-            <li><a href="">Technology</a></li>
-            <li><a href="">Security</a></li>
-            <li><a href="">Pricing</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Things</h3>
-          <ul>
-            <li><a href="">Sales</a></li>
-            <li><a href="">Legal</a></li>
-            <li><a href="">Enterprises</a></li>
-          </ul>
-        </div>
-      </section>
-    </footer>
-    <script src="script.js"></script>
-    <script type="module" src="script_animation.js"></script>
-  </body>
+      </div>
+      <div>
+        <h3>Things</h3>
+        <ul>
+          <li><a href="">Sales</a></li>
+          <li><a href="">Legal</a></li>
+          <li><a href="">Enterprises</a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="script.js"></script>
+  <script type="module" src="script_animation.js"></script>
+</body>
+
 </html>
