@@ -22,19 +22,23 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,500;0,700&display=swap');
   </style>
-  <nav>
-    <a class="logo" href="index.html"><img src="graphics/logo.svg" alt="logo"></a>
-    <div>
-      <ul>
-        <li><a href="#product">Product</a></li>
-        <li><a href="#solution">Solution</a></li>
-      </ul>
-    </div>
-    <button onclick="darkTheme()" type="button">Change theme</button>
-    </ul>
-  </nav>
   <header>
-    <div class="header_text">
+    <nav>
+      <a class="logo" href="index.html"><img src="graphics/logo.svg" alt="logo"></a>
+      <div>
+        <ul>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#solution">Solution</a></li>
+        </ul>
+      </div>
+      <button class="change-theme-button" onclick="darkTheme()" type="button">Change theme</button>
+      </ul>
+    </nav>
+    
+  </header>
+  <main>
+    <section class="hero-section">
+      <div class="hero_text">
       <h1>Colors & animation</h1>
       <p>
         The assignment is to apply a color pallet to a mockup landing page design, then add animations. There are three
@@ -43,11 +47,11 @@
       </p>
       <button class="dark_button" type="button">See more</button>
     </div>
-    <div class="header_graphics">
+    <div class="hero_graphics">
       <img src="graphics/lemon.png" alt="">
     </div>
-  </header>
-  <main>
+  </section>
+    
     <section class="highlight">
       <div>
         <h2>
@@ -106,7 +110,10 @@
           Quis hic sinistris si eum sinistris scandalum quis lorem providebunt mi
           laesae consurgunt cum magni hac si commodi unde aspirare uidem.
         </p>
-        <input type="text"></input><button type="button">Request Demo &#x2794;</button>
+        <label for="">.
+          <input name="demo" type="text"></input>
+        </label>
+        <button type="button">Request Demo &#x2794;</button>
       </div>
     </section>
   </main>
